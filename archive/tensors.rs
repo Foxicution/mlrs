@@ -205,9 +205,9 @@ fn forward(net: &NeuralNetwork, input: &_Tensor) -> _Tensor {
     current_output
 }
 
-// fn backprop(net: &NeuralNetwork, in: &_Tensor, out: &_Tensor) {
-
-// }
+fn backprop(net: &NeuralNetwork, in: &_Tensor, out: &_Tensor) {
+    
+}
 
 // Example Usage
 fn main() {
